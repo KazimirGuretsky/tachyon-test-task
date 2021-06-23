@@ -526,13 +526,13 @@ footer {
 	color: #fff;
 }
 .contact-detail li.address {
-	background: url(./assets/address-icon.png) 0 2px no-repeat;
+	background: url(./address-icon.png) 0 2px no-repeat;
 }
 .contact-detail li.mobile-phone {
-	background: url(./assets/phone-icon.png) 0 2px no-repeat;
+	background: url(./phone-icon.png) 0 2px no-repeat;
 }
 .contact-detail li.email {
-	background: url(./assets/email-icon.png) 0 2px no-repeat;
+	background: url(./email-icon.png) 0 2px no-repeat;
 }
 .blog-section p {
 	color: #fff;

@@ -29,7 +29,9 @@ function switchModal(e) {
   if (e.target == modalClose) {
     form.reset();
     if(document.querySelector('.input-error')){
-      document.querySelector('.input-error').classList.remove('input-error');
+      document.querySelectorAll('.input-error').forEach((item)=>{
+        item.classList.remove('input-error');
+      })
     }
     image.src = './assets/empty-box.png';
   }
